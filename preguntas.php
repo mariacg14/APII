@@ -562,6 +562,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['selected_questions'])
     }
 
 }
+?>
+<div class="d-flex justify-content-center">
+    <a href="http://localhost/ImpleMoodle/moodle/course/view.php?id=<?php echo $course_id; ?>" class="btn btn-outline-primary">
+        Volver al Curso
+    </a>
+</div>
+<?php
 
 ///////////////////////////////////////////////////////////
 echo $OUTPUT->footer();
